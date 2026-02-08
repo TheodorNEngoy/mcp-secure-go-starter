@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - uses: TheodorNEngoy/mcp-safety-scanner@b37568ec70ebd233e0516e2263fe4fce58ad0969 # v0.4.6
+      - uses: TheodorNEngoy/mcp-safety-scanner@2e4512a3bc199a38b5c00e41daea8abdc1e39811 # v0.4.7
         with:
           path: .
           fail-on: high
